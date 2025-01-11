@@ -96,7 +96,7 @@ border-radius: 5px;cursor: pointer;}
     border-radius: 16px;
 }
 .card-two-img{width: 60px;height: 60px;}
-.title-g-e{font-size: 20px;font-weight: bold;}
+.title-g-e{font-size: 20px;font-weight: bold;padding: 0px;}
 .description-i-s{font-size: 16px;opacity: 70%;}
 
 .card-three{
@@ -114,7 +114,7 @@ border-radius: 5px;cursor: pointer;}
 /* Quote Section */
 
 .quote-section{
-    margin: 32px 138px;
+    margin: 32px 160px;
 }
 .quote-container{
     border: 1px solid gray;
