@@ -1,0 +1,165 @@
+*{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{margin: 0px;}
+/* STYLES */
+.btn{
+    background-color: #006A50;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+/* HEADER SECTION */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0PX 160PX;
+}
+.logo{font-size: 32px;font-weight: bold;}
+.btn-sign-in{font-size: 18px;font-weight: 600;border-radius: 8px;border: 1px solid #006A50;padding: 15px 30px;cursor: pointer;color: #006A50;}
+.btn-sign-in:hover{background-color: black; color: #ffffff;transition: 0.5s;border: 1px solid #006A50;}
+
+/* ------MAIN------ */
+
+/* banner-section */
+banner-section{
+    background-color:#006A50;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 70px 90px;
+    margin: 0px 160px;
+    border-radius: 20px;
+}
+.banner-coloumn-one{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+.heading{font-size: 20px;opacity: 50%;font-weight: 500;}
+.text{font-size: 40px;font-weight: bold;margin: 0px;padding: 0px; margin-bottom: 24px;}
+.new-bd-btn{padding: 17px 34px; border-style: none;font-size: 18px;font-weight: 500;margin: 0px;background-color: #006A50;
+border-radius: 5px;cursor: pointer;}
+.new-bd-btn:hover{background-color:#d33636;transition: 0.3s;}
+.ankor-e-n-b{text-decoration: none;color: #ffffff;}
+.ankor-e-n-b:hover{color: #e4e4e4;}
+
+/* vision-of-future */
+.vision-of-future{
+    margin: 80px 160px;
+}
+.v-o-f-container{
+    align-items: center;
+}
+.title{font-size: 40px;font-weight: bold;}
+.sub-title{font-size: 16px;opacity: 70%;}
+
+.card-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+.card-one{
+    background-color: lightblue;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 32px;
+    border-radius: 16px;
+}
+.card-one-img{width: 60px;height: 60px;}
+.title-d-t{font-size: 20px;font-weight: bold;}
+.description-c-n{font-size: 16px;opacity: 70%;}
+.learn-btn{font-size: 16px;font-weight: 400;background-color: lightcoral;;border-radius: 10px;color: #ffffff;border: 0.5px solid rgb(67, 67, 67);padding: 12px 30px;}
+.learn-btn:hover{background-color: #006A50;transition: 0.5s;}
+.ankor-l-m{text-decoration: none;color: #ffffff;}
+
+.card-two{
+    background-color: rgb(158, 228, 158);
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 42px;
+    border-radius: 16px;
+}
+.card-two-img{width: 60px;height: 60px;}
+.title-g-e{font-size: 20px;font-weight: bold;}
+.description-i-s{font-size: 16px;opacity: 70%;}
+
+.card-three{
+    background-color:rgb(216, 216, 164);
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 32px;
+    border-radius: 16px;
+}
+.card-two-img{width: 60px;height: 60px;}
+.title-m-i{font-size: 20px;font-weight: bold;}
+.description-b-s{font-size: 16px;opacity: 70%;}
+
+/* Quote Section */
+
+.quote-section{
+    margin: 32px 138px;
+}
+.quote-container{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px #478953;
+    background-image: url(quote-bg.png);
+    background-repeat: no-repeat;
+}
+.about-muhhamd-yonus{opacity: 70%;}
+.name{font-size: 20px;opacity: 80%;font-weight: bold;}
+.designation{opacity: 60%;}
+
+/* Recent News section */
+.recent-news{
+    display: flex;
+    justify-content: space-around;
+    margin:20px 160px;
+    flex-direction: column;
+    gap: 15px;
+}
+.launch-part{
+    background-color: #f1f1f1;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px red;
+}
+.world{width: 400px;height: 300px;border-radius: 24px;padding: 0px;margin: 0px;}
+.launch-column-two{
+    width: 740px;height: 240px;
+    display: flex;
+    justify-content:space-around;
+    align-items:start;
+    flex-direction: column;
+}
+.r-n{font-size: 40px;font-weight:bold;padding: 0px;margin: 0px;}
+.description{opacity: 70%;padding: 0px;margin: 0px 0px 15px 0px;}
+
+.heading-one{font-size: 32px;font-weight:bold;margin:0px 0px 10px 0px;}
+.alja{width: 130px;height: 40px;padding: 0px;margin-bottom: 15px;}
+.times{opacity: 70%;}
+.not-untile{opacity: 70%;}
+.rm{padding: 11px 15px;font-weight: bold;background-color: #006A50;color: #ffffff;border-style: none;border-radius: 5px;}
+.rm:hover{background-color: #d33636;transition: 0.3s;}
+.ankor-rm{color: #ffffff;text-decoration: none;}
+
+
+
