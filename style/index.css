@@ -56,6 +56,50 @@ border-radius: 5px;cursor: pointer;}
 .ankor-e-n-b{text-decoration: none;color: #ffffff;}
 .ankor-e-n-b:hover{color: #e4e4e4;}
 
+/* pillar-section */
+
+.pillars-section{
+    
+}
+.card-of-pillar{
+    display: flex;
+    gap: 24px;
+    margin: 32px 160px;
+}
+.pillar-one{
+    display: flex;flex-direction: column;
+    background-color: #ffffff;
+    width: 300px;height: 250px;
+    padding: 24px;
+    border-radius: 15px;
+}
+.pillar{font-size: 40px;font-weight: bold;margin: 30px 160px;}
+.p-img{width: 64px;height: 64px;}
+.p-title{font-size: 20px;font-weight: bold;opacity: 80%;}
+.p-description{opacity: 70%;}
+
+.pillar-two{
+    display: flex;flex-direction: column;
+    background-color: #ffffff;
+    width: 300px;height: 250px;
+    padding: 24px;
+    border-radius: 15px;
+}
+.pillar-three{
+    display: flex;flex-direction: column;
+    background-color: #ffffff;
+    width: 300px;height: 250px;
+    padding: 24px;
+    border-radius: 15px;
+}
+.pillar-fourth{
+    display: flex;flex-direction: column;
+    background-color: #ffffff;
+    width: 300px;height: 250px;
+    padding: 24px;
+    border-radius: 15px;
+}
+
 /* vision-of-future */
 .vision-of-future{
     margin: 80px 160px;
