@@ -156,7 +156,7 @@ border-radius: 5px;cursor: pointer;}
     flex-direction: column;
 }
 .r-n{font-size: 40px;font-weight:bold;padding: 0px;margin: 0px;}
-.description{opacity: 70%;padding: 0px;margin: 0px 0px 15px 0px;}
+.description{opacity: 70%;padding: 0px;margin: 0px 0px 15px -3px;}
 
 .heading-one{font-size: 32px;font-weight:bold;margin:0px 0px 10px 0px;}
 .alja{width: 130px;height: 40px;padding: 0px;margin-bottom: 15px;}
